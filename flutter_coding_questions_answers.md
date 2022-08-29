@@ -11,10 +11,10 @@ const list3 = list1; // will this line compile ?
 
 ##### Answer:
 ###### Difference between these lists ?
-  List1 is Var type   -> The var keyword is used to declare a variable.The Dart compiler automatically knows the type of data based on the assigned to the variable.
-  List2 is Final type -> Value must be known at run-time, Can't be changed after initialized. Any variables that isn't known at compile time should be a final variable.
+  List1 is Var type   -> The var keyword is used to declare a variable.The Dart compiler automatically knows the type of data based on the assigned to the variable.\
+  List2 is Final type -> Value must be known at run-time, Can't be changed after initialized. Any variables that isn't known at compile time should be a final variable.\
   List2 is const type -> Value must be known at compile-time. If the value you have is calculating at runtime, you can not use a const for it. 
-                         This const value can't be changed after initialized.
+                         This const value can't be changed after initialized.\
                              
 ###### Will the last two lines compile?
 ###### list2[2] = 'Dart';
