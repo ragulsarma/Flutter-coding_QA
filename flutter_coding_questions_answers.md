@@ -21,6 +21,8 @@ Final - means you can't use the operator = . But you can add (either using = ope
 This line will not be compiled. As i mentioned earlier const type variables are known at compile time value but here we are trying to assign var type list to 
 const type list which wont be compiled. The reason is If the value you have is computed at runtime you can not use a const for it.
 
+###### Output Image
+![Output Screenshot](https://github.com/ragulsarma/Flutter-coding_QA/blob/main/Screenshot%202022-08-29%20at%208.48.47%20PM.png)
 
 #### 2. Identify the problem in the following code. 
 String longOperationMethod() {
