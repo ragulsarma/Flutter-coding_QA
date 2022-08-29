@@ -2,10 +2,13 @@
 
 #### 1. In the below code, list1 declared with var, list2 with final and list3 with const. What is the difference between these lists? Will the last two lines compile?
 
+```
 var list1 = ['I', '💙', 'Flutter'];
 final list2 = list1;
 list2[2] = 'Dart'; // will this line compile ?
 const list3 = list1; // will this line compile ?
+```
+
 ##### Answer:
 ###### Difference between these lists ?
   List1 is Var type   -> The var keyword is used to declare a variable.The Dart compiler automatically knows the type of data based on the assigned to the variable.
@@ -25,6 +28,8 @@ const type list which wont be compiled. The reason is If the value you have is c
 ![Output Screenshot](https://github.com/ragulsarma/Flutter-coding_QA/blob/main/Screenshot%202022-08-29%20at%208.48.47%20PM.png)
 
 #### 2. Identify the problem in the following code. 
+
+```
 String longOperationMethod() {
       var counting = 0;
       for (var i = 1; i <= 1000000000; i++) {
@@ -32,6 +37,7 @@ String longOperationMethod() {
       }
       return '$counting! times print the value!';
       }
+```
 
 ##### Answer:
    Here, we're trying to run the loop over one billion counts its really over killing or expensive task for the system also it blocks our app completely.
